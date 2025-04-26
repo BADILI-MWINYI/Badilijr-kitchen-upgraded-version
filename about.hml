@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Badili JR's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Badili JR's Kitchen</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<section class="home">
+        <h2>About Us</h2>
+        <p>Badili JR's Kitchen brings delicious, homemade meals to the heart of Mombasa! Our mission is to serve fresh, tasty, and unforgettable dishes. 🍽</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Badili JR's Kitchen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
