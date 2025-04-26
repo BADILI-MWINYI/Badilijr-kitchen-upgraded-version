@@ -59,17 +59,50 @@ footer {
     padding: 10px 0;
     margin-top: 50px;
 }
-/* Smooth Fade In Animation */
+css
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
+}
+
+nav {
+    background-color: #ff6347;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section.home {
+    padding: 50px;
+    text-align: center;
+    animation: fadeIn 1.5s ease forwards;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; transform: translateY(20px);}
     100% { opacity: 1; transform: translateY(0);}
 }
 
-section.home {
-    padding: 50px;
-    animation: fadeIn 1.5s ease forwards;
-}
-css
 section.home .btn {
     background: #28a745;
     color: white;
@@ -77,6 +110,8 @@ section.home .btn {
     border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
     transition: all 0.3s ease;
 }
 
@@ -84,16 +119,9 @@ section.home .btn:hover {
     background: #218838;
     transform: scale(1.1);
 }
-css
-img {
-    transition: transform 0.3s ease;
-}
-
-img:hover {
-    transform: scale(1.05);
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
